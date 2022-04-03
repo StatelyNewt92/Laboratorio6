@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pagina2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+
+
+</head>
+
+<body>
+  <div class="container ">
+
+    <h1 class="bg-warning ">Primera pagina web usando versionado con GIT</h1>
+
+    <h2>Usted esta en: <p id="pagdx">Pagina 2</p>
+    </h2>
+    <!--Div de navegador-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navegacion</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagina1.html">Pagina 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="pagina2.html">Pagina 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagina3.html">Pagina 3</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Contenido de la pagina web (imagenes y un texto)-->
+    <!-- <p id="instr"><i> Sobre la misma carpeta que hiciste el ejercicio anterior debes
+                generar 3 páginas HTML llamadas
+                “pagina1.html”, “pagina2.html” y “pagina3.html” cada una de estas páginas debe tener el mismo menú
+                de navegación que “index.html” con la diferencia de que se debe marcar cuál es la página actual en la
+                que se encuentra el usuario y cada una de las opciones debe llevar a su página correspondiente (genera
+                una opción para ir al index.html también). El contenido de las 3 páginas es libre, pero cada una debe
+                contener al menos 3 párrafos, 3 imágenes y 2 componentes de Bootstrap (La creatividad será evaluada)</i>
+        </p> -->
+
+
+    <!--Aqui empieza el carrusel-->
+    <div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/MiguelHidalgo1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/MiguelHidalgo2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/MiguelHidalgo3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h3 class="text-center">bibliografía de Miguel Hidalgo</h3>
+      <p>Miguel Hidalgo y Costilla fue un insurgente y sacerdote mexicano. Nació el 8 de mayo de 1753 en la hacienda de
+        San Diego de Corralejo, Pénjamo, Guanajuato. Cursó estudios en el Colegio de San Nicolás, Valladolid (actual
+        Morelia), del que llegó a ser rector.Miguel Hidalgo y Costilla fue un insurgente y sacerdote mexicano. Nació el
+        8 de mayo de 1753 en la hacienda de San Diego de Corralejo, Pénjamo, Guanajuato. Cursó estudios en el Colegio de
+        San Nicolás, Valladolid (actual Morelia), del que llegó a ser rector.
+        <br><br>
+        En 1778, fue ordenado sacerdote y en 1803 se hizo cargo de la parroquia de Dolores, Guanajuato. Se preocupó por
+        mejorar las condiciones de sus feligreses, casi todos indígenas, enseñándoles a cultivar viñedos, la cría de
+        abejas y a dirigir pequeñas industrias de loza y ladrillos.
+
+        En 1809 se unió a una sociedad secreta formada en Valladolid, cuyo fin era reunir un congreso para gobernar la
+        Nueva España en nombre del rey Fernando VII, preso de Napoleón y, en su caso, obtener la independencia del
+        país.En 1809 se unió a una sociedad secreta formada en Valladolid, cuyo fin era reunir un congreso para gobernar
+        la Nueva España en nombre del rey Fernando VII, preso de Napoleón y, en su caso, obtener la independencia del
+        país.
+        <br><br>
+        Descubiertos los conjurados, la insurrección se trasladó a Querétaro donde se reunió con Ignacio Allende. El 16
+        de septiembre de 1810, llevando como estandarte a la virgen de Guadalupe, lanzó el llamado grito de Dolores que
+        inició la gesta independentista y, acompañado de Allende, consiguió reunir un ejército formado por más de
+        cuarenta mil personas. Tomaron Guanajuato y Guadalajara, sin embargo, decidieron no ocupar la ciudad de México.
+        <br><br>
+        El 11 de enero de 1811, Hidalgo fue derrotado cerca de Guadalajara por las fuerzas realistas. Escapó hacia el
+        norte, pero fue capturado y condenado a muerte. Su cabeza, junto a la de Allende y a la de otros insurgentes, se
+        exhibió como escarmiento en la alhóndiga de Granaditas de Guanajuato.
+
+        Tras el establecimiento de la República Mexicana, en 1824, se le reconoció como primer insurgente y Padre de la
+        Patria. En su honor, un estado de la República y la ciudad de Dolores, llevan su nombre. El 16 de septiembre,
+        día en que proclamó su rebelión, se celebra el Día de la Independencia en México.
+
+
+      </p>
+
+
+      <div class="card border-warning mb-3">
+        <div class="card-header">
+          Frase celebre
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>¡Viva la independencia! ¡Viva la América!</p>
+            <footer class="blockquote-footer">Al llamado de la gente para la independencia, <cite
+                title="Source Title">Miguel Hidalgo</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+      <br>
+
+    </div>
+
+
+    <div class="btn-group" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn btn-outline-primary"><a href="index.html">Index </a></button>
+      <button type="button" class="btn btn-outline-primary"><a href="pagina1.html">Pagina 1 </a></button>
+      <button type="button" class="btn btn-outline-warning active"><a href="pagina2.html">Pagina 2 </a></button>
+      <button type="button" class="btn btn-outline-primary"><a href="pagina3.html">Pagina 3 </a></button>
+    </div>
+
+    <footer>
+      <p class="text-warning bg-dark text-center">Mario Hernandez-1852658-IAS-Laboratorio 6-Programacion web</p>
+    </footer>
+    <!--Fin del container-->
+  </div>
+  <!--Js de bootstrap 5-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

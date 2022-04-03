@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pagina1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+
+
+</head>
+
+<body>
+  <div class="container ">
+
+    <h1 class="bg-info ">Primera pagina web usando versionado con GIT</h1>
+
+    <h2>Usted esta en: <p id="pagdx">Pagina 1</p>
+    </h2>
+    <!--Div de navegador-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navegacion</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="pagina1.html">Pagina 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagina2.html">Pagina 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagina3.html">Pagina 3</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Contenido de la pagina web (imagenes y un texto)-->
+    <!-- <p id="instr"><i> Sobre la misma carpeta que hiciste el ejercicio anterior debes
+                generar 3 páginas HTML llamadas
+                “pagina1.html”, “pagina2.html” y “pagina3.html” cada una de estas páginas debe tener el mismo menú
+                de navegación que “index.html” con la diferencia de que se debe marcar cuál es la página actual en la
+                que se encuentra el usuario y cada una de las opciones debe llevar a su página correspondiente (genera
+                una opción para ir al index.html también). El contenido de las 3 páginas es libre, pero cada una debe
+                contener al menos 3 párrafos, 3 imágenes y 2 componentes de Bootstrap (La creatividad será evaluada)</i>
+        </p> -->
+
+
+    <!--Aqui empieza el carrusel-->
+    <div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/BenitoJuarez1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/BenitoJuarez2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/BenitoJuarez3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h3 class="text-center" >bibliografía de Benito Juarez</h3>
+      <p>Nació en San Pablo Guelatao, Oaxaca. Hijo de padres indios zapotecas, se fue a Oaxaca a los trece años,
+        cuando aún no hablaba castellano. Por poco tiempo fue cosechero de grana, pero encontró un protector en
+        Don Antonio Salanueva, encuadernador y terciario de la Orden Franciscana. Con él y con el maestro
+        Domingo González, aprendió a leer. Se matriculó en el Seminario de la Santa Cruz, donde estudió
+        preparatoria; cursó latinidad, filosofía, y concluyó el bachillerato en 1827. Al año siguiente ingresó,
+        sin la aprobación de su protector, al Instituto de Ciencias y Artes, donde se graduó de abogado en 1834,
+        correspondiéndole ser el primer profesionista graduado en dicho Instituto.
+        <br><br>
+        En 1831 fue regidor del Ayuntamiento de Oaxaca y en 1833, fue diputado local. En 1841 fue juez de lo
+        civil y al ser derrocado de la Presidencia el Gral. Paredes Arrillaga, Juárez resultó electo diputado
+        federal. Al volver a Oaxaca, Juárez ocupó por poco tiempo la gubernatura a la renuncia de José Simeón
+        Artega. Al terminar el periodo en agosto de 1848, se presentó candidato al siguiente periodo y resultó
+        electo. Procuró el equilibrio económico y ejecutó algunas obras públicas: caminos, reconstrucción del
+        Palacio de Gobierno, fundación de escuelas normales; levantamiento de una carta geográfica y la
+        formación del plano de la ciudad de Oaxaca; reorganizó la Guardia Nacional y dejó superávit en el
+        tesoro. Terminó su mandato en 1852.
+        <br><br>
+        Al volver Santa-Anna al poder, muchos liberales son desterrados, entre ellos Juárez, primero a Jalapa y
+        luego a La Habana, tras una breve prisión en San Juan de Ulúa. De La Habana se le deportó a Nueva
+        Orléans, donde desembarcó en octubre de 1853. Después, al caer Santa-Anna y llegar Juan Álvarez y
+        Comonfort a la Presidencia, se le nombraó ministro de justicia (octubre - diciembre, 1855). En noviembre
+        de 1855, se expide la ley sobre administración de justicia, llamada Ley Juárez, en la que son abolidos
+        los fueros. Nombrado gobernador de Oaxaca, se hace cargo del gobierno el 10 de enero de 1856. Convocó a
+        elecciones y fue designado nuevamente. Al expedirse la Constitución Federal de 1857, la promulgó.
+        <br><br>
+        El 17 de diciembre se proclamó el Plan de Tacubaya; Juárez no se solidarizó con la nueva política de
+        Comonfort y fue aprehendido. Fue liberado en enero de 1858 y salió de la capital. En julio de 1859
+        expidió, con el apoyo del grupo radical, las llamadas Leyes de Reforma: independencia del Estado
+        respecto de la Iglesia; ley sobre matrimonio civil, sobre el Registro Civil, la de Panteones y
+        Cementerios, paso de los bienes de la Iglesia a la nación.
+        <br><br>
+        González Ortega, civil improvisado general, llevó al triunfo a las armas liberales y entró a la ciudad
+        de México a fines de diciembre de 1860. Mientras, Juárez había prorrogado su mandato en el Gobierno.
+        Convocó a elecciones y resultó designado para seguir en el mando. La justa suspensión de pagos que
+        ordenó respecto de la deuda extranjera, provocó la expedición de Inglaterra, Francia y España a
+        Veracruz. Al final, Francia quedó sola y en 1862 se inició la Intervención. El ejército francés fue
+        detenido en Puebla por Zaragoza, el 5 de mayo de 1862, pero en 1863, a pesar de la heroica defensa de
+        González Ortega, la ciudad cayó tras tres meses de asedio. El 31 de mayo Juárez dejó la ciudad de
+        México, encarnando en el éxodo la soberanía de México.
+        <br><br>
+        El ejército francés se retiró por la situación europea y se inició la restauración de la República.
+        Juárez fue reelecto Presidente nuevamente y tomó posesión el 25 de diciembre de 1867. Tuvo que sofocar
+        rebeliones en México y en Yucatán, y en 1871 se rebeló Porfirio Díaz.
+      </p>
+
+
+      <div class="card border-info mb-3">
+        <div class="card-header">
+          Frase celebre
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>El respeto al derecho ajeno, es la paz.</p>
+            <footer class="blockquote-footer">Cuando la rebelión iba declinando,
+              murió Don Benito Juárez, el 18 de julio de 1872, en el Palacio Nacional. <cite title="Source Title">Benito
+                Juarez</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+      <br>
+
+    </div>
+
+
+    <div class="btn-group" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn btn-outline-primary"><a href="index.html">Index </a></button>
+      <button type="button" class="btn btn-outline-primary active"><a href="pagina1.html"></a>Pagina 1</button>
+      <button type="button" class="btn btn-outline-primary"><a href="pagina2.html">Pagina 2 </a></button>
+      <button type="button" class="btn btn-outline-primary"><a href="pagina3.html">Pagina 3 </a></button>
+    </div>
+
+    <footer>
+      <p class="text-warning bg-dark text-center">Mario Hernandez-1852658-IAS-Laboratorio 6-Programacion web</p>
+    </footer>
+    <!--Fin del container-->
+  </div>
+  <!--Js de bootstrap 5-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

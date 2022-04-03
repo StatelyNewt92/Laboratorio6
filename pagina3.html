@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>pagina3</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+
+
+</head>
+
+<body>
+  <div class="container ">
+
+    <h1 class="bg-danger ">Primera pagina web usando versionado con GIT</h1>
+
+    <h2>Usted esta en: <p id="pagdx">Pagina 3</p>
+    </h2>
+    <!--Div de navegador-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navegacion</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Index</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagina1.html">Pagina 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagina2.html">Pagina 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="pagina3.html">Pagina 3</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Contenido de la pagina web (imagenes y un texto)-->
+    <!-- <p id="instr"><i> Sobre la misma carpeta que hiciste el ejercicio anterior debes
+                generar 3 páginas HTML llamadas
+                “pagina1.html”, “pagina2.html” y “pagina3.html” cada una de estas páginas debe tener el mismo menú
+                de navegación que “index.html” con la diferencia de que se debe marcar cuál es la página actual en la
+                que se encuentra el usuario y cada una de las opciones debe llevar a su página correspondiente (genera
+                una opción para ir al index.html también). El contenido de las 3 páginas es libre, pero cada una debe
+                contener al menos 3 párrafos, 3 imágenes y 2 componentes de Bootstrap (La creatividad será evaluada)</i>
+        </p> -->
+
+
+    <!--Aqui empieza el carrusel-->
+    <div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/Josefa1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/Josefa2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/Josefa3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h3 class="text-center">bibliografía de Josefa Ortiz de Domínguez</h3>
+      <p class="text-justify">(Valladolid, hoy Morelia, México, 1768 - Ciudad de México, 1829) Patriota y heroína de la independencia de
+        México, conocida también por el apodo de «la Corregidora de Querétaro».
+        <br><br>
+        El levantamiento liderado por el sacerdote Miguel Hidalgo en 1810, que puso en marcha el proceso que conduciría,
+        once años después, a la independencia de México, se había fraguado en la llamada conspiración de Querétaro,
+        cuyos miembros se reunían en la casa de Josefa Ortiz y su esposo Miguel Domínguez, corregidor de la ciudad. A
+        riesgo de ser descubierta y capturada, como efectivamente ocurrió, Josefa Ortiz de Domínguez logró hacer llegar
+        al cura Hidalgo y a otros conspiradores la noticia de que sus planes habían sido descubiertos; sin su aviso, el
+        alzamiento nunca hubiera llegado a producirse.
+        <br><br>
+        Nacida en el seno de una familia de españoles de clase media, Josefa Ortiz de Domínguez fue bautizada el 16 de
+        septiembre de 1768 con los nombres de María de la Natividad Josefa. Su padre, Juan José Ortiz, fue capitán del
+        regimiento de los morados y murió en acción de guerra cuando ella contaba pocos años de edad.
+
+        En 1808 se produjo la invasión napoleónica de España, la cual tuvo como consecuencia el inicio de la guerra de
+        la Independencia y la formación de las juntas de gobierno, ante la ausencia del rey Fernando VII. Las noticias
+        llegadas de España en 1808 favorecieron el movimiento independentista de México; tras las iniciales muestras de
+        apoyo al rey, comenzó a fraguarse en algunos círculos la idea de separarse totalmente de España. Después de un
+        intento fallido del virrey José de Iturrigaray para formar una junta de gobierno independiente, se produjeron
+        las primeras conspiraciones destinadas a subvertir el orden establecido.
+        <br><br>
+      <h3>La conspiracion de Queretaro</h3>
+      Miguel Domínguez, como corregidor, había apoyado al virrey en su decisión de formar una junta de gobierno, pero
+      ante la imposibilidad de llevar esos planes a la práctica, comenzó a simpatizar con el ideario independentista, al
+      parecer por influencia de su esposa, que se convirtió en una firme colaboradora del movimiento. Pasados los
+      primeros momentos de confusión, cada vez se hizo más claro para muchos la necesidad de construir en México un
+      Estado en el que imperaran los valores liberales. Tal convicción era compartida por el matrimonio Domínguez, que a
+      partir de 1810 abrió su casa a unas supuestas tertulias literarias que eran en realidad reuniones de carácter
+      político.
+
+      En estas reuniones se tomarían las decisiones para organizar e iniciar un levantamiento contra el virrey y
+      constituir una junta para gobernar el país en nombre de Fernando VII. A la casa de los corregidores acudieron
+      algunas de las más relevantes figuras de la primera fase del proceso emancipador, como los capitanes Joaquín
+      Arias, Juan Aldama, Mariano Abasolo e Ignacio Allende (quien al parecer pretendió a una de las hijas de Josefa) y
+      el cura Hidalgo. Los miembros de la que sería conocida como la conspiración de Querétaro acordaron alzarse en
+      armas contra el recién nombrado virrey Francisco Javier Venegas el primero de octubre de 1810.
+      <h3>El grito de Dolores</h3>
+      Tras recibir la notificación de Josefa Ortiz, el padre Hidalgo decidió adelantar el levantamiento a la madrugada
+      del 16 de septiembre de 1810. Desde su posición como párroco de Dolores, Miguel Hidalgo convocó a sus feligreses a
+      una misa, y en ella hizo un llamamiento a alzarse en armas contra las autoridades coloniales y a luchar por un
+      gobierno más justo; tal proclama es conocida como el Grito de Dolores. La inmensa mayoría de sus parroquianos eran
+      indígenas y gentes humildes que se encontraban en precaria situación a causa de las duras condiciones de vida y
+      las tremendas desigualdades sociales que imperaban en el virreinato, y respondieron de inmediato a su llamada.
+      Comenzaba así el largo y cruento proceso de emancipación de México, que no alcanzaría la independencia hasta 1821.
+
+      Gracias al aviso de la Corregidora, como se la apodaría popularmente en la época, muchos conspiradores pudieron
+      escapar antes de ser detenidos por las autoridades virreinales; Josefa Ortiz, en cambio, no salió bien parada de
+      su arriesgada acción. El 14 de septiembre, después de recibir respuesta de Hidalgo, había mandado una carta a
+      Joaquín Arias para que se preparase para la lucha; pero el capitán la delató, y tanto Josefa como su marido fueron
+      arrestados el mismo día en que se produjo el Grito de Dolores.
+      <br><br>En 1822, un año después de haber liderado el movimiento que dio la independencia efectiva al país, Agustín
+      de Iturbide se autoproclamó emperador de México y ofreció a Josefa Ortiz de Domínguez ingresar en la corte como
+      dama de honor de su esposa, Ana Duarte de Iturbide. Josefa rechazó con contundencia un ofrecimiento que más
+      parecía una intolerable burla, ya que pensaba que la instauración de un Imperio era totalmente contraria a los
+      ideales por los que se había luchado durante el proceso de emancipación.
+
+      En los últimos años de su vida, Josefa Ortiz de Domínguez se relacionó con grupos liberales de carácter radical.
+      En todo momento se negó a recibir cualquier recompensa por el apoyo inestimable que había prestado a la
+      consecución de la Independencia: en su opinión, no había hecho más que cumplir con su deber de buena patriota.
+      Falleció en Ciudad de México el 2 de marzo de 1829, a la edad de sesenta y un años. Sus restos fueron enterrados
+      en el convento de Santa Catalina, aunque algún tiempo después fueron trasladados a Querétaro, donde reposan junto
+      con los de su marido en el Panteón de queretanos ilustres, en un mausoleo construido en su honor en 1847 en el
+      antiguo huerto del convento de la Cruz.
+
+      </p>
+
+
+      <div class="card border-danger mb-3">
+        <div class="card-header">
+          Frase celebre
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>"¡Tantos soldados para custodiar una pobre mujer, pero yo con mi sangre les formaré un patrimonio a mis hijos!".</p>
+            <footer class="blockquote-footer">Al momento de ser aprehendida por actividades clandestinas, exclamó:<cite
+                title="Source Title">Josefa Ortiz de Domínguez</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+      <br>
+
+    </div>
+
+
+    <div class="btn-group" role="group" aria-label="Basic outlined example">
+      <button type="button" class="btn btn-outline-primary"><a href="index.html">Index </a></button>
+      <button type="button" class="btn btn-outline-primary"><a href="pagina1.html">Pagina 1 </a></button>
+      <button type="button" class="btn btn-outline-primary"><a href="pagina2.html">Pagina 2 </a></button>
+      <button type="button" class="btn btn-outline-danger active"><a href="pagina3.html">Pagina 3 </a></button>
+    </div>
+
+    <footer>
+      <p class="text-warning bg-dark text-center">Mario Hernandez-1852658-IAS-Laboratorio 6-Programacion web</p>
+    </footer>
+    <!--Fin del container-->
+  </div>
+  <!--Js de bootstrap 5-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
